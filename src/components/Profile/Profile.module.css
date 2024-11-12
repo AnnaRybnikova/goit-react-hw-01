@@ -4,7 +4,7 @@
     border: 1.5px solid var(--black);
     border-radius: 9px;
     max-width: 300px;
-    margin-bottom: 24px;
+    /* margin-bottom: 24px; */
 }
 
 .profile_info_section {
