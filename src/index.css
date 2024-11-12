@@ -1,3 +1,12 @@
+:root {
+  --light-grey: rgba(242, 242, 239, 0.957);
+  --grey: rgba(80, 80, 80, 0.85);
+  --middle-grey: rgba(128, 128, 128, 0.29);
+  --dark-grey: rgba(0, 0, 0, 0.671);
+  --black: black;
+  --accet-green: #00b068;
+}
+
 *,
 *::before,
 *::after {

@@ -1,13 +1,14 @@
 .profile {
     margin: 0 auto;
     font-size: 16px;
-    border: 1.5px solid black;
+    border: 1.5px solid var(--black);
     border-radius: 9px;
     max-width: 300px;
+    margin-bottom: 24px;
 }
 
 .profile_info_section {
-    background-color: rgba(242, 242, 239, 0.957);
+    background-color: var(--light-grey);
     padding: 8px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -17,7 +18,7 @@
     border-radius: 50%;
     margin: 0 auto 12px auto;
     width: 100px;
-    background-color: rgba(0, 0, 0, 0.671);
+    background-color: var(--dark-grey);
 }
 
 .profile_name {
@@ -31,7 +32,7 @@
 
 .profile_tag,
 .profile_location {
-    color: rgba(80, 80, 80, 0.85);
+    color: var(--grey);
 }
 
 .profile_list {
@@ -50,8 +51,8 @@
     width: 100%;
     padding-top: 8px;
     padding-bottom: 8px;
-    background-color: rgba(128, 128, 128, 0.29);
-    border: 1.5px solid rgba(80, 80, 80, 0.85);
+    background-color: var(--middle-grey);
+    border: 1.5px solid var(--grey);
     border-left: none;
     border-bottom: none;
 }

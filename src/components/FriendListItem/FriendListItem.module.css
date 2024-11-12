@@ -1,0 +1,15 @@
+.friend_avatar {
+    margin-bottom: 12px;
+}
+
+.friend_status {
+    font-size: 12px;
+}
+
+.friend_status.is_online {
+    color: green;
+}
+
+.friend_status.is_offline {
+    color: red;
+}
